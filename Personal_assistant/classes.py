@@ -3,7 +3,7 @@ from collections import UserDict
 from datetime import datetime
 import re
 
-from Personal_assistant.styles import bcolors
+from styles import bcolors
 
 PHONE_REGEX = re.compile(r"^\+?(\d{2})?\(?(0\d{2})\)?(\d{7}$)")
 EMAIL_REGEX = re.compile(r'^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$')
