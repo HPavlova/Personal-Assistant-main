@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pick = "~=1.2.0"
+prettytable = "~=3.3.0"
+termcolor2 = "~=0.0.3"
+flask = "*"
+
+[dev-packages]
+ipython = "*"
+
+[requires]
+python_version = "3.10"
